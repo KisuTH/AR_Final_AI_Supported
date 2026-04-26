@@ -598,7 +598,7 @@
   ScriptInputs:
     "":
       assetName0: player_run
-      assetTexture0: !<reference.Texture> 015918a2-314a-485d-9a79-d6e7db9081c2
+      assetTexture0: !<reference.Texture> 63052557-b156-47d9-82ed-fea61d86ba52
       assetName1: obstacle_cone
       assetTexture1: !<reference.Texture> 99d1afce-0043-43fa-9a17-288c5c4b7502
       assetName2: obstacle_barrier

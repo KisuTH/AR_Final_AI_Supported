@@ -66,15 +66,15 @@
     "./Assets/**/*.ts",
     "./Packages/**/*.ts",
     "./Cache/TypeScript/Src/Packages/**/*.ts",
-    "./Cache/TypeScript/Src/Assets/Easy Lens/Lens Components/UIProgressBar_5.18.0.lsc/**/*.ts",
-    "./Cache/TypeScript/Src/Assets/Easy Lens/Lens Components/Touch Events_5.11.lsc/**/*.ts",
     "./Cache/TypeScript/Src/Assets/Easy Lens/Lens Components/Sound_5.16.lsc/**/*.ts",
-    "./Cache/TypeScript/Src/Assets/Easy Lens/Lens Components/FaceLandmarks_5.13.0.lsc/**/*.ts",
-    "./Cache/TypeScript/Src/Assets/Easy Lens/Lens Components/SpriteStore_5.14.lsc/**/*.ts",
-    "./Cache/TypeScript/Src/Assets/Easy Lens/Lens Components/Screen Text_5.12.lsc/**/*.ts",
-    "./Cache/TypeScript/Src/Assets/Easy Lens/Lens Components/SpriteManager_5.14.lsc/**/*.ts",
+    "./Cache/TypeScript/Src/Assets/Easy Lens/Lens Components/Touch Events_5.11.lsc/**/*.ts",
     "./Cache/TypeScript/Src/Assets/Easy Lens/Lens Components/Background_Image_5.11.2.0.lsc/**/*.ts",
     "./Cache/TypeScript/Src/Assets/Easy Lens/Lens Components/Background_Image_5.11.2.0.lsc/VisualEditManager_5.12.lspkg/**/*.ts",
-    "./Cache/TypeScript/Src/Assets/Easy Lens/Lens Components/UIButtonBlock_5.17.1.lsc/**/*.ts"
+    "./Cache/TypeScript/Src/Assets/Easy Lens/Lens Components/SpriteStore_5.14.lsc/**/*.ts",
+    "./Cache/TypeScript/Src/Assets/Easy Lens/Lens Components/FaceLandmarks_5.13.0.lsc/**/*.ts",
+    "./Cache/TypeScript/Src/Assets/Easy Lens/Lens Components/Screen Text_5.12.lsc/**/*.ts",
+    "./Cache/TypeScript/Src/Assets/Easy Lens/Lens Components/SpriteManager_5.14.lsc/**/*.ts",
+    "./Cache/TypeScript/Src/Assets/Easy Lens/Lens Components/UIButtonBlock_5.17.1.lsc/**/*.ts",
+    "./Cache/TypeScript/Src/Assets/Easy Lens/Lens Components/UIProgressBar_5.18.0.lsc/**/*.ts"
   ]
 }

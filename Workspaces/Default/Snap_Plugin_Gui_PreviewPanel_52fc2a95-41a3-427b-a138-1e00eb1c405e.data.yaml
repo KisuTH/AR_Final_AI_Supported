@@ -11,9 +11,9 @@ data:
   deviceTypeOverride: Unknown
   spectaclesMaximizeViewport: true
   inputSourceData:
-    type: Multimedia
+    type: Webcam
     input:
-      source: PreviewResources.bundle/Video/Idle/Idle.mp4
+      source: ASUS FHD webcam
       upscale: 1280
     cameraView: Front
   interactiveAspect: 1.000000

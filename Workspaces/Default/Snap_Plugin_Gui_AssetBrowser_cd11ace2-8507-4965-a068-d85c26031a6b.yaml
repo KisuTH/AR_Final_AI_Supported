@@ -1,7 +1,7 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 33
+    size: 34
     values:
       - Easy Lens/Generated Assets
       - Easy Lens/Generated Assets/Barrier_Sprite.png
@@ -36,4 +36,5 @@ CollapsedEntities:
       - Easy Lens/LensController.js
       - Echopark.hdr
       - Genshin_login_menu_bg.webp
+      - Paimon_NoBG.gif
   options: 4
