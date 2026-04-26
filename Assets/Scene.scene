@@ -10,6 +10,8 @@
     - !<own> b54cbeba-9a86-432e-8de6-06c4e94b689c
     - !<own> aad18d22-38a0-4938-8648-9aaadb47fe17
     - !<own> becc57ba-d5b1-4ed8-93cc-a65872df0835
+    - !<own> dced14a2-0176-4783-b915-259d28a6ff1d
+    - !<own> 9eaf58f9-d03f-43aa-a43f-dbe936284cad
   layers: !<Layers/267ee9a7-aff2-4f9d-9a49-f71214747d03>
     userLayers:
       - id: 9
@@ -488,7 +490,7 @@
   IsAdvanced: false
   Constraints:
     pinToLeft: false
-    pinToTop: false
+    pinToTop: true
     pinToRight: false
     pinToBottom: false
     fixedWidth: false
@@ -512,7 +514,7 @@
     left: 0.000000
     bottom: 0.000000
     right: 0.000000
-    top: 0.000000
+    top: 17.000000
 - !<Camera/33db98ad-c6e4-4181-bc26-7d3b80f34ec6>
   PrefabRemaps:
     []
@@ -600,11 +602,11 @@
       assetName0: player_run
       assetTexture0: !<reference.Texture> 63052557-b156-47d9-82ed-fea61d86ba52
       assetName1: obstacle_cone
-      assetTexture1: !<reference.Texture> 99d1afce-0043-43fa-9a17-288c5c4b7502
+      assetTexture1: !<reference.Texture> e881c187-2218-4f37-a046-70c3d51ac74d
       assetName2: obstacle_barrier
-      assetTexture2: !<reference.Texture> e7cae661-1a1d-499f-bcb1-850f15a780df
+      assetTexture2: !<reference.Texture> 6962912f-8efc-4306-aaa1-8502f2bbf580
       assetName3: finish_line
-      assetTexture3: !<reference.Texture> ee5cc3c7-4468-4cf0-8b51-6592b0ee0be2
+      assetTexture3: !<reference.Texture> 912da4d5-d8f2-42a0-b573-ec95896b9137
       assetName4: subway_bg
       assetTexture4: !<reference.Texture> 36713448-a324-4624-8330-77f5d5aada6f
       assetName5: ""
@@ -658,6 +660,25 @@
   ScriptTypes:
     "":
       {}
+- !<Image/41217c8e-f699-4b49-96e6-95c26ff7bc5c>
+  PrefabRemaps:
+    []
+  Name: Image
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Fit
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4f03fd81-399e-4d20-9d11-02f5bdceca32
+  FlipX: false
+  FlipY: false
+  RotationAngle: 0
+  Pivot: {x: 0.000000, y: 0.000000}
+  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
 - !<ScriptComponent/41760e63-a340-4ef9-9cc1-ee8226898cc8>
   PrefabRemaps:
     []
@@ -684,6 +705,23 @@
   ScriptTypes:
     "":
       {}
+- !<AudioComponent/4a067f43-2c2f-4344-9a51-0cbb1f12cf14>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 728692f4-6c21-484c-a6ef-c3e45054f76b
+  EnableAutoplayLoop: true
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<SceneObject/4cd8359c-ac76-4dce-8826-f5e9d829ab94>
   PrefabRemaps:
     []
@@ -1290,6 +1328,21 @@
   ScriptTypes:
     "":
       {}
+- !<SceneObject/9eaf58f9-d03f-43aa-a43f-dbe936284cad>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 4a067f43-2c2f-4344-9a51-0cbb1f12cf14
 - !<ScreenTransform/aa22e331-6cef-4a94-9dc7-6cc228f42f03>
   PrefabRemaps:
     []
@@ -1526,7 +1579,7 @@
   Constraints:
     pinToLeft: false
     pinToTop: false
-    pinToRight: false
+    pinToRight: true
     pinToBottom: false
     fixedWidth: false
     fixedHeight: false
@@ -1798,6 +1851,21 @@
     bottom: 0.000000
     right: 0.000000
     top: 0.000000
+- !<SceneObject/dced14a2-0176-4783-b915-259d28a6ff1d>
+  PrefabRemaps:
+    []
+  Name: Hillichurl_NoBG
+  Enabled: false
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 41217c8e-f699-4b49-96e6-95c26ff7bc5c
 - !<SceneObject/dd82eac6-a6ec-41c0-b38b-029c49dc80b8>
   PrefabRemaps:
     []

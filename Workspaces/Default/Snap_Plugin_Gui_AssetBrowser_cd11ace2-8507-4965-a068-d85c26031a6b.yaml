@@ -1,8 +1,11 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 34
+    size: 43
     values:
+      - Celestia Gate Hand_Cut.png
+      - Celestial Gate.png
+      - Chibi Furious Samurai NoBG.png
       - Easy Lens/Generated Assets
       - Easy Lens/Generated Assets/Barrier_Sprite.png
       - Easy Lens/Generated Assets/Colorful_Subway_Background 2.jpeg
@@ -35,6 +38,12 @@ CollapsedEntities:
       - Easy Lens/LensController 9.js
       - Easy Lens/LensController.js
       - Echopark.hdr
+      - Genshin Theme Sound.mp3
       - Genshin_login_menu_bg.webp
+      - Hillichurl_NoBG.png
+      - ImageMaterial.mat
       - Paimon_NoBG.gif
+      - Pyro Slime.webp
+      - genshin-loading-screen-fanart-v0-c2llf4el288f1.png
+      - image_unlit.ss_graph
   options: 4
