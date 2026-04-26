@@ -1,0 +1,39 @@
+CollapsedEntities:
+  type: stringset
+  value:
+    size: 33
+    values:
+      - Easy Lens/Generated Assets
+      - Easy Lens/Generated Assets/Barrier_Sprite.png
+      - Easy Lens/Generated Assets/Colorful_Subway_Background 2.jpeg
+      - Easy Lens/Generated Assets/Colorful_Subway_Background.jpeg
+      - Easy Lens/Generated Assets/Finish_Line_Sprite.png
+      - Easy Lens/Generated Assets/Runner_Character_Sprite.png
+      - Easy Lens/Generated Assets/Subway_Cone_Sprite.png
+      - Easy Lens/Generated Assets/Subway_Tunnel_Background_Sprite.png
+      - Easy Lens/Generated Assets/Win_Jingle_Sfx.mp3
+      - Easy Lens/Lens Components
+      - Easy Lens/Lens Components/Background_Image_5.11.2.0.lsc
+      - Easy Lens/Lens Components/FaceLandmarks_5.13.0.lsc
+      - Easy Lens/Lens Components/Screen Text_5.12.lsc
+      - Easy Lens/Lens Components/Sound_5.16.lsc
+      - Easy Lens/Lens Components/SpriteManager_5.14.lsc
+      - Easy Lens/Lens Components/SpriteStore_5.14.lsc
+      - Easy Lens/Lens Components/Touch Events_5.11.lsc
+      - Easy Lens/Lens Components/UIButtonBlock_5.17.1.lsc
+      - Easy Lens/Lens Components/UIProgressBar_5.18.0.lsc
+      - Easy Lens/LensController 10.js
+      - Easy Lens/LensController 11.js
+      - Easy Lens/LensController 12.js
+      - Easy Lens/LensController 2.js
+      - Easy Lens/LensController 3.js
+      - Easy Lens/LensController 4.js
+      - Easy Lens/LensController 5.js
+      - Easy Lens/LensController 6.js
+      - Easy Lens/LensController 7.js
+      - Easy Lens/LensController 8.js
+      - Easy Lens/LensController 9.js
+      - Easy Lens/LensController.js
+      - Echopark.hdr
+      - Genshin_login_menu_bg.webp
+  options: 4

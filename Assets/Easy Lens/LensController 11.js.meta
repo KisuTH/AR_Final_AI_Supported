@@ -1,0 +1,62 @@
+- !<AssetImportMetadata/89ea7fae-c520-48f2-9e31-1a3c3a0bc2fa>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 9c53153e-e051-4877-baae-6e3c37f9d92d
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 9c53153e-e051-4877-baae-6e3c37f9d92d
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    USE_EASY_LENS: ""
+  AssetDataMap:
+    JavaScriptAsset: !<own> f8f30479-1d83-4f75-bfb7-9e016baf5281
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/f8f30479-1d83-4f75-bfb7-9e016baf5281>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: c7eff421-6a4c-4338-9c68-e6b54c721838
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    bgImage: false
+    faceLandmarks: false
+    progressBar: false
+    scoreText: false
+    sfx: false
+    spriteManager: false
+    spriteStore: false
+    startButton: false
+    stateText: false
+    timeBar: false
+    timerText: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - faceLandmarks: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      spriteManager: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      bgImage: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      sfx: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      scoreText: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      timeBar: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      spriteStore: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      startButton: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      timerText: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      stateText: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      progressBar: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

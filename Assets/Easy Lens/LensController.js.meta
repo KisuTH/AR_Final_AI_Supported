@@ -1,0 +1,56 @@
+- !<AssetImportMetadata/61252c05-2030-4e5d-b2e1-10a4aaf83098>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 24a66fd9-0f11-428f-a082-3f49fe2039df
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 24a66fd9-0f11-428f-a082-3f49fe2039df
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    USE_EASY_LENS: ""
+  AssetDataMap:
+    JavaScriptAsset: !<own> 1932d0d5-96ce-4293-b81c-78721661bec4
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/1932d0d5-96ce-4293-b81c-78721661bec4>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 15184145-b501-4f32-adf5-46cfe224bf86
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    progressBar: false
+    scoreText: false
+    sfx: false
+    spriteManager: false
+    spriteStore: false
+    stateText: false
+    subwayBackground: false
+    touchEvents: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - sfx: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      spriteStore: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      touchEvents: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      scoreText: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      progressBar: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      spriteManager: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      subwayBackground: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      stateText: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

@@ -1,0 +1,80 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "isolatedModules": true,
+    "lib": [
+      "es2021"
+    ],
+    "module": "commonjs",
+    "noEmit": true,
+    "paths": {
+      "*": [
+        "./Assets/*",
+        "./Packages/*",
+        "./Cache/TypeScript/Src/Packages/*"
+      ],
+      "Easy Lens/Lens Components/Background_Image_5.11.2.0.lsc/*": [
+        "./Assets/Easy Lens/Lens Components/Background_Image_5.11.2.0.lsc/*",
+        "./Cache/TypeScript/Src/Assets/Easy Lens/Lens Components/Background_Image_5.11.2.0.lsc/*"
+      ],
+      "Easy Lens/Lens Components/Background_Image_5.11.2.0.lsc/VisualEditManager_5.12.lspkg/*": [
+        "./Assets/Easy Lens/Lens Components/Background_Image_5.11.2.0.lsc/VisualEditManager_5.12.lspkg/*",
+        "./Cache/TypeScript/Src/Assets/Easy Lens/Lens Components/Background_Image_5.11.2.0.lsc/VisualEditManager_5.12.lspkg/*"
+      ],
+      "Easy Lens/Lens Components/FaceLandmarks_5.13.0.lsc/*": [
+        "./Assets/Easy Lens/Lens Components/FaceLandmarks_5.13.0.lsc/*",
+        "./Cache/TypeScript/Src/Assets/Easy Lens/Lens Components/FaceLandmarks_5.13.0.lsc/*"
+      ],
+      "Easy Lens/Lens Components/Screen Text_5.12.lsc/*": [
+        "./Assets/Easy Lens/Lens Components/Screen Text_5.12.lsc/*",
+        "./Cache/TypeScript/Src/Assets/Easy Lens/Lens Components/Screen Text_5.12.lsc/*"
+      ],
+      "Easy Lens/Lens Components/Sound_5.16.lsc/*": [
+        "./Assets/Easy Lens/Lens Components/Sound_5.16.lsc/*",
+        "./Cache/TypeScript/Src/Assets/Easy Lens/Lens Components/Sound_5.16.lsc/*"
+      ],
+      "Easy Lens/Lens Components/SpriteManager_5.14.lsc/*": [
+        "./Assets/Easy Lens/Lens Components/SpriteManager_5.14.lsc/*",
+        "./Cache/TypeScript/Src/Assets/Easy Lens/Lens Components/SpriteManager_5.14.lsc/*"
+      ],
+      "Easy Lens/Lens Components/SpriteStore_5.14.lsc/*": [
+        "./Assets/Easy Lens/Lens Components/SpriteStore_5.14.lsc/*",
+        "./Cache/TypeScript/Src/Assets/Easy Lens/Lens Components/SpriteStore_5.14.lsc/*"
+      ],
+      "Easy Lens/Lens Components/Touch Events_5.11.lsc/*": [
+        "./Assets/Easy Lens/Lens Components/Touch Events_5.11.lsc/*",
+        "./Cache/TypeScript/Src/Assets/Easy Lens/Lens Components/Touch Events_5.11.lsc/*"
+      ],
+      "Easy Lens/Lens Components/UIButtonBlock_5.17.1.lsc/*": [
+        "./Assets/Easy Lens/Lens Components/UIButtonBlock_5.17.1.lsc/*",
+        "./Cache/TypeScript/Src/Assets/Easy Lens/Lens Components/UIButtonBlock_5.17.1.lsc/*"
+      ],
+      "Easy Lens/Lens Components/UIProgressBar_5.18.0.lsc/*": [
+        "./Assets/Easy Lens/Lens Components/UIProgressBar_5.18.0.lsc/*",
+        "./Cache/TypeScript/Src/Assets/Easy Lens/Lens Components/UIProgressBar_5.18.0.lsc/*"
+      ]
+    },
+    "skipDefaultLibCheck": true,
+    "target": "es2021",
+    "types": []
+  },
+  "exclude": [
+    "node_modules/typescript/lib/lib.dom.d.ts"
+  ],
+  "include": [
+    "./Cache/TypeScript/lib/LensifyTS/Declarations/**/*.d.ts",
+    "./Assets/**/*.ts",
+    "./Packages/**/*.ts",
+    "./Cache/TypeScript/Src/Packages/**/*.ts",
+    "./Cache/TypeScript/Src/Assets/Easy Lens/Lens Components/UIProgressBar_5.18.0.lsc/**/*.ts",
+    "./Cache/TypeScript/Src/Assets/Easy Lens/Lens Components/Touch Events_5.11.lsc/**/*.ts",
+    "./Cache/TypeScript/Src/Assets/Easy Lens/Lens Components/Sound_5.16.lsc/**/*.ts",
+    "./Cache/TypeScript/Src/Assets/Easy Lens/Lens Components/FaceLandmarks_5.13.0.lsc/**/*.ts",
+    "./Cache/TypeScript/Src/Assets/Easy Lens/Lens Components/SpriteStore_5.14.lsc/**/*.ts",
+    "./Cache/TypeScript/Src/Assets/Easy Lens/Lens Components/Screen Text_5.12.lsc/**/*.ts",
+    "./Cache/TypeScript/Src/Assets/Easy Lens/Lens Components/SpriteManager_5.14.lsc/**/*.ts",
+    "./Cache/TypeScript/Src/Assets/Easy Lens/Lens Components/Background_Image_5.11.2.0.lsc/**/*.ts",
+    "./Cache/TypeScript/Src/Assets/Easy Lens/Lens Components/Background_Image_5.11.2.0.lsc/VisualEditManager_5.12.lspkg/**/*.ts",
+    "./Cache/TypeScript/Src/Assets/Easy Lens/Lens Components/UIButtonBlock_5.17.1.lsc/**/*.ts"
+  ]
+}
