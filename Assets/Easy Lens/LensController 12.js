@@ -13,7 +13,7 @@
 //@input Component.ScriptComponent startButton
 //@input Component.ScriptComponent stateText
 //@input Component.ScriptComponent timerText
-//@input Component.ScriptComponent progressBar
+
 
 
 try {
@@ -171,7 +171,7 @@ script.createEvent("OnStartEvent").bind(function() {
     script.timerText.forceSafeRegion(true);
 
     // Disable BLUE distance progress bar per user request
-    script.progressBar.enabled = false;
+
 
     // Buttons initial state
     script.startButton.enabled = true;
@@ -311,7 +311,7 @@ function startGame() {
     // Keep RED timer bar visible during gameplay
     script.timeBar.enabled = true;
     // Ensure BLUE bar stays hidden on restart
-    script.progressBar.enabled = false;
+
 
     // Reset timer
     timeRemaining = GAME_DURATION;
@@ -397,12 +397,12 @@ function update() {
         // Keep RED timer bar visible in IDLE
         script.timeBar.enabled = true;
         // Ensure BLUE bar stays hidden
-        script.progressBar.enabled = false;
+
     } else if (gameState === "GAME_OVER" || gameState === "WIN") {
         // Ensure RED timer bar remains visible post-run
         script.timeBar.enabled = true;
         // Keep BLUE bar hidden
-        script.progressBar.enabled = false;
+
     } else {
         // Other states (none)
     }

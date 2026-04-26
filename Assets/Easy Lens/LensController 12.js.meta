@@ -28,7 +28,6 @@
   ScriptInputsHidden:
     bgImage: false
     faceLandmarks: false
-    progressBar: false
     scoreText: false
     sfx: false
     spriteManager: false
@@ -58,7 +57,6 @@
       startButton: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
       stateText: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
       timerText: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
-      progressBar: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}

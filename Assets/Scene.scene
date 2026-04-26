@@ -681,7 +681,6 @@
       startButton: !<reference.ScriptComponent> ab64674f-f956-4154-838f-8ea0f8184916
       stateText: !<reference.ScriptComponent> 83976df9-b15c-4917-9996-e66f1ee0457f
       timerText: !<reference.ScriptComponent> 4e26164b-296c-4f47-801a-9dad3945e6f6
-      progressBar: !<reference.ScriptComponent> cc12c59b-014a-4fc8-9307-4df0b8ded584
   ScriptTypes:
     "":
       {}
@@ -813,7 +812,7 @@
   PrefabRemaps:
     []
   Name: UI Progress Bar
-  Enabled: true
+  Enabled: false
   Layers: 8192
   LocalTransform: !<TransformEntity>
     Position: {x: 0.000000, y: 0.000000, z: 0.000000}
@@ -1380,8 +1379,8 @@
       paddingX: 0.150000
       paddingY: 0.025000
       circlePadding: 0.100000
-      backgroundColor: !<Vec4> {x: 0.580000, y: 0.270000, z: 0.820000, w: 1.000000}
-      backgroundPressedColor: !<Vec4> {x: 0.470000, y: 0.310000, z: 0.820000, w: 1.000000}
+      backgroundColor: !<Vec4> {x: 0.768627, y: 0.776471, z: 0.250980, w: 1.000000}
+      backgroundPressedColor: !<Vec4> {x: 0.517647, y: 0.517647, z: 0.164706, w: 1.000000}
       backgroundDisabledColor: !<Vec4> {x: 0.500000, y: 0.500000, z: 0.500000, w: 1.000000}
       outlineThickness: !<float> 0.000000
       outlineColor: !<Vec4> {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}

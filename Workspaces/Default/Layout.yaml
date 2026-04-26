@@ -27,7 +27,7 @@ dock:
               - persistentName: Snap.Plugin.AssistantAI.Panel
                 Uuid: df91b2cf-37e1-401c-83fc-3d9f83343e71
             type: section
-            current: 1
+            current: 0
           - items:
               - persistentName: Snap.Plugin.Gui.LoggerPanel
                 Uuid: 81de965d-0c94-4d28-82cf-901740003a1f
