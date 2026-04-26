@@ -6,8 +6,8 @@ data:
   colorSpace: Default
   deviceName: iPhone 14 Pro
   devicePose:
-    eulerRotation: {x: 0.000000, y: -0.000000, z: 0.000000}
-    translation: {x: 0.000000, y: 0.000000, z: 24.000000}
+    eulerRotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    translation: {x: 0.000000, y: 0.000000, z: 0.000000}
   deviceTypeOverride: Unknown
   spectaclesMaximizeViewport: true
   inputSourceData:

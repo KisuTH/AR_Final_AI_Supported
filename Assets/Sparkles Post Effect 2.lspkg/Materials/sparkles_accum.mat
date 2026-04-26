@@ -1,0 +1,153 @@
+- !<Material/9e06816c-c186-45b2-a1d2-27387eb8b495>
+  PackagePath: ""
+  PassesInfo:
+    - !<own> 2760430d-c7d1-4bfd-826d-3006a3f80895
+- !<PassInfo/2760430d-c7d1-4bfd-826d-3006a3f80895>
+  CachedProperties:
+    - Port_Depth_N004:
+        typeIdx: 1
+        value: 1.000000
+    - Port_FinalColor1_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_FinalColor2_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_FinalColor3_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_GSplatPointSize_N004:
+        typeIdx: 1
+        value: 0.000000
+    - Port_GSplatRotation_N004:
+        typeIdx: 5
+        value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+    - Port_GSplatScale_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_LODValue_N026:
+        typeIdx: 1
+        value: 0.000000
+    - Port_Output_N002:
+        typeIdx: 5
+        value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+    - Port_RayDirection_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 1.000000, z: 0.000000}
+    - Port_RayOrigin_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_WorldNormal_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 1.000000, z: 0.000000}
+    - Port_WorldPosition_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_WorldTangent_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - PreviewNodeID:
+        typeIdx: 0
+        value: -1
+    - mainColor:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - overrideTimeDelta:
+        typeIdx: 1
+        value: 0.000000
+    - overrideTimeElapsed:
+        typeIdx: 1
+        value: 0.000000
+    - overrideTimeEnable:
+        typeIdx: 2
+        value: false
+  DepthWrite: true
+  DepthTest: true
+  DepthFunction: LessEqual
+  TwoSided: false
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    []
+  BlendMode: Disabled
+  Properties:
+    Port_Input1_N007:
+      typeIdx: 1
+      value: -3.000000
+    Port_Input1_N008:
+      typeIdx: 1
+      value: -0.100000
+    Port_Input1_N010:
+      typeIdx: 1
+      value: 0.000000
+    Port_Input2_N010:
+      typeIdx: 1
+      value: 1.000000
+    Port_Item0_N023:
+      typeIdx: 5
+      value: {x: 0.000000, y: 0.000000, z: 1.000000, w: 0.160000}
+    Port_Item1_N023:
+      typeIdx: 5
+      value: {x: 1.182400, y: 0.000000, z: 0.000000, w: 0.120200}
+    Port_Item2_N023:
+      typeIdx: 5
+      value: {x: 0.000000, y: 1.182400, z: 0.000000, w: 0.120200}
+    Port_Item3_N023:
+      typeIdx: 5
+      value: {x: -1.182400, y: 0.000000, z: 0.000000, w: 0.120200}
+    Port_Item4_N023:
+      typeIdx: 5
+      value: {x: 0.000000, y: -1.182400, z: 0.000000, w: 0.120200}
+    Port_Item5_N023:
+      typeIdx: 5
+      value: {x: 1.182400, y: 1.182400, z: 0.000000, w: 0.089200}
+    Port_Item6_N023:
+      typeIdx: 5
+      value: {x: -1.182400, y: 1.182400, z: 0.000000, w: 0.089200}
+    Port_Item7_N023:
+      typeIdx: 5
+      value: {x: -1.182400, y: -1.182400, z: 0.000000, w: 0.089200}
+    Port_Item8_N023:
+      typeIdx: 5
+      value: {x: 1.182400, y: -1.182400, z: 0.000000, w: 0.089200}
+    Port_Value2_N011:
+      typeIdx: 1
+      value: 0.000000
+    Port_Value3_N011:
+      typeIdx: 1
+      value: 0.000000
+    Port_Value4_N011:
+      typeIdx: 1
+      value: 1.000000
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    bestF:
+      typeIdx: 1
+      value: 0.200000
+    screenTex:
+      typeIdx: 9
+      value:
+        id: 60408811-d241-4a2f-917a-190606dd73c4
+        sampler:
+          filteringMode: Trilinear
+          wrapModeU: Repeat
+          wrapModeV: Repeat
+          wrapModeW: ClampToEdge
+          borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+          mipmaps: false
+        type: Texture2D
+    screenTexSize:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    screenTexTransform:
+      typeIdx: 7
+      value:
+        0: {x: 1.000000, y: 0.000000, z: 0.000000}
+        1: {x: 0.000000, y: 1.000000, z: 0.000000}
+        2: {x: 0.000000, y: 0.000000, z: 1.000000}
+  Pass: !<reference> 0de8245d-1a03-4df6-8084-6fd326c7fe68

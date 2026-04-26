@@ -1,0 +1,121 @@
+- !<ObjectPrefab/de9df4f2-b5f7-453f-8c0b-8a25144431f6>
+  PackagePath: ""
+  objects:
+    - !<own> 5b291ef9-e829-454b-8c10-bf704af888b2
+  LazyLoading: false
+  RetainAssets: true
+  PreviewEnvironment: !<reference> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/3136ec7b-043e-498e-a68e-a0ef3cbeb1c5>
+  PrefabRemaps:
+    []
+  Name: SparklesDebug
+  Enabled: false
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 920f16f5-b69a-4976-9894-df78d6d5feff
+- !<ScriptComponent/4eae6c34-c5ea-497c-a3cf-6581d803da6c>
+  PrefabRemaps:
+    []
+  Name: SparklesSceneSetup
+  Enabled: true
+  ScriptAsset: !<reference> c4819ffa-1c87-4b5c-b89a-3f0e1b03546d
+  ScriptInputsDefault:
+    advancedSetup: true
+    drawDebug: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      inTexture: !<reference.Texture> 2483de85-b7c7-4c1c-ba25-50aad9aa4068
+      sparklesMesh: !<reference.RenderMeshVisual> bb4ef1a2-68fb-4455-917c-3bd552a30473
+      advancedSetup: false
+      matAvgCol: !<reference.Material> 4132cb99-436d-454b-9042-c5903b6b8527
+      matNormalize: !<reference.Material> c03cb50e-a62a-4fa2-9398-79720927697e
+      matDetector: !<reference.Material> e8d80d35-0701-4f06-8a08-03848f2298ca
+      matReduce: !<reference.Material> 42f355ce-0258-4fad-ae7b-cc326df4066f
+      matDrawReduce: !<reference.Material> d7b84b53-5eea-4ad1-a9e9-db8413b80433
+      matBC_Accum: !<reference.Material> 7afb4c08-f6a0-4d6f-8361-83c1172f3352
+      drawDebug: false
+      texDebug: 3
+      postDebug: !<reference.PostEffectVisual> 920f16f5-b69a-4976-9894-df78d6d5feff
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/5b291ef9-e829-454b-8c10-bf704af888b2>
+  PrefabRemaps:
+    - 3136ec7b-043e-498e-a68e-a0ef3cbeb1c5: 3136ec7b-043e-498e-5971-5f10c3414e3a
+    - 4eae6c34-c5ea-497c-a3cf-6581d803da6c: 4eae6c34-c5ea-497c-5c30-9a7e27fc2593
+    - 5b291ef9-e829-454b-8c10-bf704af888b2: 5b291ef9-e829-454b-73ef-408fb507774d
+    - 769d5e28-7ef3-47c8-b54a-43dbb33d150d: 769d5e28-7ef3-47c8-4ab5-bc244cc2eaf2
+    - 920f16f5-b69a-4976-9894-df78d6d5feff: 920f16f5-b69a-4976-676b-2087292a0100
+    - bb4ef1a2-68fb-4455-917c-3bd552a30473: bb4ef1a2-68fb-4455-6e83-c42aad5cfb8c
+  Name: Sparkles__PLACE_IN_SCENE
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 3136ec7b-043e-498e-a68e-a0ef3cbeb1c5
+    - !<own> 769d5e28-7ef3-47c8-b54a-43dbb33d150d
+  Components:
+    []
+- !<SceneObject/769d5e28-7ef3-47c8-b54a-43dbb33d150d>
+  PrefabRemaps:
+    []
+  Name: Sparkles
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> bb4ef1a2-68fb-4455-917c-3bd552a30473
+    - !<own> 4eae6c34-c5ea-497c-a3cf-6581d803da6c
+- !<PostEffectVisual/920f16f5-b69a-4976-9894-df78d6d5feff>
+  PrefabRemaps:
+    []
+  Name: Post Effect
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> a20c226a-b3ac-4fb0-883b-e2477bfce998
+- !<RenderMeshVisual/bb4ef1a2-68fb-4455-917c-3bd552a30473>
+  PrefabRemaps:
+    []
+  Name: Mesh Visual
+  Enabled: false
+  RenderOrder: 1
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 58d9186f-51e1-429f-8a9e-8f81b0f0bdfb
+  Mesh: !<reference> 74d61579-8cad-4184-84fa-6ca5d405fba9
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}

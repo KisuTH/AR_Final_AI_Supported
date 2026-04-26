@@ -1,0 +1,55 @@
+- !<AssetImportMetadata/a5ab41ac-673a-46e8-9824-b85153782274>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> e70b6932-5f32-46c6-9507-b709eafd9fd8
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> e70b6932-5f32-46c6-9507-b709eafd9fd8
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    AssetLibraryId: 3V2yK8YNC0kZx6ql8tm8t7
+  AssetDataMap:
+    ObjectPrefab: !<own> 035195be-9756-4429-8ce9-5de296f23352
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ObjectPrefabAssetData/035195be-9756-4429-8ce9-5de296f23352>
+  Prototype: !<ObjectOwner/e6f785c9-931b-490a-8477-4d70d1a023ff>
+    PackagePath: ""
+    objects:
+      - !<own> 499b5a31-e30c-4fc1-af27-f0036f82bb17
+- !<VFXComponent/2e39c2fe-5c5d-4a3a-b026-fc2dba22d483>
+  PrefabRemaps:
+    []
+  Name: VFX Component
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  VFXAsset: !<reference> 744ae0f5-a474-4b46-8014-a0114fc0af87
+  SystemRenderLayerInfoMap:
+    0: !<VFXSystemRenderLayerInfo>
+      RenderLayerInfoMap:
+        render_0_0: !<VFXRenderLayerInfo>
+          Enabled: false
+          RenderLayers: 1
+- !<SceneObject/499b5a31-e30c-4fc1-af27-f0036f82bb17>
+  PrefabRemaps:
+    []
+  Name: SparklesVFX__PLACE_IN_SCENE
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: -40.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 2e39c2fe-5c5d-4a3a-b026-fc2dba22d483

@@ -13,7 +13,7 @@ metaInfo:
     []
   tags:
     []
-  lensName: Gesture Dash
+  lensName: Emergency Food Esc
   lensDescriptors:
     []
   lensApplicableContext:
@@ -27,8 +27,8 @@ metaInfo:
     - Mobile
     - Web
   platformBundlesEnabled: false
-  iconHash: 6f6109073f9d96f67430fb583f9ffb6d
-  videoPreviewHash: ""
+  iconHash: 4844b866ef3f43bdcd5266c1bc0566ef
+  videoPreviewHash: 7e90ef11ac6bf014b6aed23190c5c3a9
   fromTemplateName: Default
   fromTemplateUrl: Lens Studio 5.20.0.26040820
   activationCamera: Front

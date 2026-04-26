@@ -1,0 +1,37 @@
+- !<NativePackageDescriptor/2a2d7b80-d25d-482d-901f-556e347a0d9e>
+  PackagePath: ""
+  StudioVersion:
+    major: 5
+    minor: 20
+    patch: 0
+    build: 26040820
+    type: Unset
+    buildFlavor: ""
+    timestamp: 0
+    commit: ""
+  Description: Sparkles Post Effect Add beautiful sparkles to your Lens with the Sparkles Post Effect. You can also apply mask to the effect to set which part of the screen you want sparkles to shine. Click here to learn more about Post Effects
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  UpdateCheckpoint: 96
+  ExportUid: 445531b4-1d56-4fb2-960c-6311c299d4bb
+  ComponentUid: c543219f-a69b-4a5a-8657-e8cfe072e3c2
+  PackagePolicy: CanBeUnpackedTransparent
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  Instantiable: !<reference> 00000000-0000-0000-0000-000000000000
+  AssetLibraryDependencyStructure: !<AssetLibraryDependencyStructure>
+    Name: ""
+    AssetId: ""
+    Hash: ""
+    Version:
+      major: 0
+      minor: 0
+      patch: 0
+      build: 0

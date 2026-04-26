@@ -1,7 +1,7 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 43
+    size: 116
     values:
       - Celestia Gate Hand_Cut.png
       - Celestial Gate.png
@@ -38,12 +38,85 @@ CollapsedEntities:
       - Easy Lens/LensController 9.js
       - Easy Lens/LensController.js
       - Echopark.hdr
+      - Genshin Enter Game SFX.mp3
       - Genshin Theme Sound.mp3
       - Genshin_login_menu_bg.webp
       - Hillichurl_NoBG.png
       - ImageMaterial.mat
       - Paimon_NoBG.gif
       - Pyro Slime.webp
+      - Sparkles Post Effect 2.lspkg
+      - Sparkles Post Effect 2.lspkg/Device Camera Texture.deviceCameraTexture
+      - Sparkles Post Effect 2.lspkg/Materials
+      - Sparkles Post Effect 2.lspkg/Materials/sparkles_accum.mat
+      - Sparkles Post Effect 2.lspkg/Materials/sparkles_avg_minmax0.mat
+      - "Sparkles Post Effect 2.lspkg/Materials/sparkles_controller [EDIT_ME].mat"
+      - Sparkles Post Effect 2.lspkg/Materials/sparkles_debug.mat
+      - Sparkles Post Effect 2.lspkg/Materials/sparkles_detector.mat
+      - Sparkles Post Effect 2.lspkg/Materials/sparkles_draw_reduce.mat
+      - Sparkles Post Effect 2.lspkg/Materials/sparkles_normalize.mat
+      - Sparkles Post Effect 2.lspkg/Materials/sparkles_reduce.mat
+      - Sparkles Post Effect 2.lspkg/Meshes
+      - Sparkles Post Effect 2.lspkg/Meshes/custom_plane.mesh
+      - Sparkles Post Effect 2.lspkg/Screen Texture.screenTexture
+      - Sparkles Post Effect 2.lspkg/Scripts
+      - Sparkles Post Effect 2.lspkg/Scripts/SparklesSceneSetup.js
+      - Sparkles Post Effect 2.lspkg/Shaders
+      - Sparkles Post Effect 2.lspkg/Shaders/sparkles_accum.ss_graph
+      - Sparkles Post Effect 2.lspkg/Shaders/sparkles_avg_minmax0.ss_graph
+      - "Sparkles Post Effect 2.lspkg/Shaders/sparkles_controller [EDIT_ME].ss_graph"
+      - Sparkles Post Effect 2.lspkg/Shaders/sparkles_debug.ss_graph
+      - Sparkles Post Effect 2.lspkg/Shaders/sparkles_detector.ss_graph
+      - Sparkles Post Effect 2.lspkg/Shaders/sparkles_draw_reduce.ss_graph
+      - Sparkles Post Effect 2.lspkg/Shaders/sparkles_normalize.ss_graph
+      - Sparkles Post Effect 2.lspkg/Shaders/sparkles_reduce.ss_graph
+      - Sparkles Post Effect 2.lspkg/Sparkles__PLACE_IN_SCENE.prefab
+      - Sparkles Post Effect 2.lspkg/Textures
+      - Sparkles Post Effect 2.lspkg/Textures/sparkles_atlas.jpg
+      - Sparkles Post Effect 2.lspkg/package.native
+      - Sparkles Post Effect.lspkg
+      - Sparkles Post Effect.lspkg/Device Camera Texture.deviceCameraTexture
+      - Sparkles Post Effect.lspkg/Materials
+      - Sparkles Post Effect.lspkg/Materials/sparkles_accum.mat
+      - Sparkles Post Effect.lspkg/Materials/sparkles_avg_minmax0.mat
+      - "Sparkles Post Effect.lspkg/Materials/sparkles_controller [EDIT_ME].mat"
+      - Sparkles Post Effect.lspkg/Materials/sparkles_debug.mat
+      - Sparkles Post Effect.lspkg/Materials/sparkles_detector.mat
+      - Sparkles Post Effect.lspkg/Materials/sparkles_draw_reduce.mat
+      - Sparkles Post Effect.lspkg/Materials/sparkles_normalize.mat
+      - Sparkles Post Effect.lspkg/Materials/sparkles_reduce.mat
+      - Sparkles Post Effect.lspkg/Meshes
+      - Sparkles Post Effect.lspkg/Meshes/custom_plane.mesh
+      - Sparkles Post Effect.lspkg/Screen Texture.screenTexture
+      - Sparkles Post Effect.lspkg/Scripts
+      - Sparkles Post Effect.lspkg/Scripts/SparklesSceneSetup.js
+      - Sparkles Post Effect.lspkg/Shaders
+      - Sparkles Post Effect.lspkg/Shaders/sparkles_accum.ss_graph
+      - Sparkles Post Effect.lspkg/Shaders/sparkles_avg_minmax0.ss_graph
+      - "Sparkles Post Effect.lspkg/Shaders/sparkles_controller [EDIT_ME].ss_graph"
+      - Sparkles Post Effect.lspkg/Shaders/sparkles_debug.ss_graph
+      - Sparkles Post Effect.lspkg/Shaders/sparkles_detector.ss_graph
+      - Sparkles Post Effect.lspkg/Shaders/sparkles_draw_reduce.ss_graph
+      - Sparkles Post Effect.lspkg/Shaders/sparkles_normalize.ss_graph
+      - Sparkles Post Effect.lspkg/Shaders/sparkles_reduce.ss_graph
+      - Sparkles Post Effect.lspkg/Sparkles__PLACE_IN_SCENE.prefab
+      - Sparkles Post Effect.lspkg/Textures
+      - Sparkles Post Effect.lspkg/Textures/sparkles_atlas.jpg
+      - Sparkles Post Effect.lspkg/package.native
+      - Sparkles VFX 2.lspkg
+      - Sparkles VFX 2.lspkg/SparklesVFX__PLACE_IN_SCENE.prefab
+      - Sparkles VFX 2.lspkg/Textures
+      - Sparkles VFX 2.lspkg/Textures/sparkles.png
+      - Sparkles VFX 2.lspkg/VFX
+      - Sparkles VFX 2.lspkg/VFX/sparkles_vfx.vfxgraph
+      - Sparkles VFX 2.lspkg/package.native
+      - Sparkles VFX.lspkg
+      - Sparkles VFX.lspkg/SparklesVFX__PLACE_IN_SCENE.prefab
+      - Sparkles VFX.lspkg/Textures
+      - Sparkles VFX.lspkg/Textures/sparkles.png
+      - Sparkles VFX.lspkg/VFX
+      - Sparkles VFX.lspkg/VFX/sparkles_vfx.vfxgraph
+      - Sparkles VFX.lspkg/package.native
       - genshin-loading-screen-fanart-v0-c2llf4el288f1.png
       - image_unlit.ss_graph
   options: 4

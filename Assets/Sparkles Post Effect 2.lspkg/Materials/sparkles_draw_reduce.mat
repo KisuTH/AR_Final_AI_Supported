@@ -1,0 +1,135 @@
+- !<Material/1d5f8041-a2ee-409c-bbb0-7e0a4acc01af>
+  PackagePath: ""
+  PassesInfo:
+    - !<own> ad7ff24b-d627-4b1d-a6f4-201e8b2a26ae
+- !<PassInfo/ad7ff24b-d627-4b1d-a6f4-201e8b2a26ae>
+  CachedProperties:
+    - Port_Depth_N004:
+        typeIdx: 1
+        value: 1.000000
+    - Port_FinalColor1_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_FinalColor2_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_FinalColor3_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_GSplatPointSize_N004:
+        typeIdx: 1
+        value: 0.000000
+    - Port_GSplatRotation_N004:
+        typeIdx: 5
+        value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+    - Port_GSplatScale_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_LODValue_N040:
+        typeIdx: 1
+        value: 0.000000
+    - Port_Output_N003:
+        typeIdx: 5
+        value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+    - Port_RayDirection_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 1.000000, z: 0.000000}
+    - Port_RayOrigin_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_WorldNormal_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 1.000000, z: 0.000000}
+    - Port_WorldPosition_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_WorldTangent_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - mainColor:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - overrideTimeDelta:
+        typeIdx: 1
+        value: 0.000000
+    - overrideTimeElapsed:
+        typeIdx: 1
+        value: 0.000000
+    - overrideTimeEnable:
+        typeIdx: 2
+        value: false
+  DepthWrite: false
+  DepthTest: false
+  DepthFunction: LessEqual
+  TwoSided: false
+  ColorMask: {x: false, y: true, z: false, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    []
+  BlendMode: Disabled
+  Properties:
+    Port_Item0_N035:
+      typeIdx: 4
+      value: {x: 0.000000, y: 0.000000, z: 0.250000}
+    Port_Item1_N035:
+      typeIdx: 4
+      value: {x: 1.500000, y: 0.000000, z: 0.500000}
+    Port_Item2_N035:
+      typeIdx: 4
+      value: {x: 0.000000, y: 1.500000, z: 0.500000}
+    Port_Item3_N035:
+      typeIdx: 4
+      value: {x: -1.500000, y: 0.000000, z: 0.500000}
+    Port_Item4_N035:
+      typeIdx: 4
+      value: {x: 0.000000, y: -1.500000, z: 0.500000}
+    Port_Item5_N035:
+      typeIdx: 4
+      value: {x: 1.500000, y: 1.500000, z: 1.000000}
+    Port_Item6_N035:
+      typeIdx: 4
+      value: {x: -1.500000, y: 1.500000, z: 1.000000}
+    Port_Item7_N035:
+      typeIdx: 4
+      value: {x: -1.500000, y: -1.500000, z: 1.000000}
+    Port_Item8_N035:
+      typeIdx: 4
+      value: {x: 1.500000, y: -1.500000, z: 1.000000}
+    Port_Value1_N011:
+      typeIdx: 1
+      value: 0.000000
+    Port_Value3_N011:
+      typeIdx: 1
+      value: 0.000000
+    Port_Value4_N011:
+      typeIdx: 1
+      value: 1.000000
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    reduceTex:
+      typeIdx: 9
+      value:
+        id: 00000000-0000-0000-0000-000000000000
+        sampler:
+          filteringMode: Trilinear
+          wrapModeU: Repeat
+          wrapModeV: Repeat
+          wrapModeW: ClampToEdge
+          borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+          mipmaps: false
+        type: Texture2D
+    reduceTexSize:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    reduceTexTransform:
+      typeIdx: 7
+      value:
+        0: {x: 1.000000, y: 0.000000, z: 0.000000}
+        1: {x: 0.000000, y: 1.000000, z: 0.000000}
+        2: {x: 0.000000, y: 0.000000, z: 1.000000}
+  Pass: !<reference> e7bc53f7-dbcd-4f8a-8726-99f20817f88f

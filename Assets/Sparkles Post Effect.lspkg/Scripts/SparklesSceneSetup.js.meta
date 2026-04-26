@@ -1,0 +1,64 @@
+- !<AssetImportMetadata/e995242a-e616-7f8a-f27f-deb2be7b7f19>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> c4819ffa-1c87-4b5c-b89a-3f0e1b03546d
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> c4819ffa-1c87-4b5c-b89a-3f0e1b03546d
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    AssetLibraryId: 6Nfapbtyx2fJDUEuAfzDvG
+  AssetDataMap:
+    JavaScriptAsset: !<own> 73538807-7e5e-42e6-8a9b-e8cbff306aea
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/73538807-7e5e-42e6-8a9b-e8cbff306aea>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 8c075676-2eba-4c62-876c-357f91f7f715
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    advancedSetup: false
+    drawDebug: false
+    inTexture: false
+    matAvgCol: false
+    matBC_Accum: false
+    matDetector: false
+    matDrawReduce: false
+    matNormalize: false
+    matReduce: false
+    postDebug: false
+    sparklesMesh: false
+    texDebug: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - inTexture: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      sparklesMesh: !<reference.RenderMeshVisual> 00000000-0000-0000-0000-000000000000
+      advancedSetup: false
+      matAvgCol: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      matNormalize: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      matDetector: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      matReduce: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      matDrawReduce: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      matBC_Accum: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      drawDebug: false
+      texDebug: 0
+      postDebug: !<reference.PostEffectVisual> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

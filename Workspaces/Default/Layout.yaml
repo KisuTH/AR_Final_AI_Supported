@@ -14,10 +14,10 @@ dock:
               - persistentName: Com.Snap.LensBasedEditors
                 Uuid: 71a983ff-13ef-4f24-b407-8c5541f3a348
             type: section
-            current: 1
+            current: 0
         sizes:
-          - 658
-          - 631
+          - 468
+          - 448
         type: splitter
         orientation: vertical
       - items:
@@ -36,8 +36,8 @@ dock:
             type: section
             current: 0
         sizes:
-          - 1073
-          - 216
+          - 763
+          - 153
         type: splitter
         orientation: vertical
       - items:
@@ -51,9 +51,9 @@ dock:
         type: section
         current: 0
     sizes:
-      - 446
-      - 1079
-      - 511
-      - 507
+      - 297
+      - 719
+      - 340
+      - 338
     type: splitter
     orientation: horizontal
